@@ -7,3 +7,13 @@ scikit-learn
 matplotlib
 numpy
 wordcloud
+streamlit
+spacy
+nltk
+sentence-transformers
+scikit-learn
+matplotlib
+numpy
+wordcloud
+requests
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
