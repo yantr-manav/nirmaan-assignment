@@ -1,10 +1,9 @@
 streamlit
-nltk
 spacy
-language-tool-python
+requests
+nltk
 sentence-transformers
 scikit-learn
-textblob
-numpy 
 matplotlib
-pandas
+numpy
+wordcloud
