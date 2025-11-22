@@ -1,0 +1,10 @@
+streamlit
+nltk
+spacy
+language-tool-python
+sentence-transformers
+scikit-learn
+textblob
+numpy 
+matplotlib
+pandas
