@@ -110,8 +110,11 @@ Given more time, the following features would be priortized:
 ### 1. Audio Ingestion :
 Integrate `OpenAI Whisper` to allow direct audio file uploads instead of text transcripts
 ### 2. LLM Feedback: 
-Usse a generative model ( Llama 3 or GPT-4o) to write personalized textual advice rather than just displaying metrics.
+Use a generative model ( Llama 3 or GPT-4o) to write personalized textual advice rather than just displaying metrics.
 ### 3. Database Integration :
 Store student scores in SQLite/PostgreSQL to track progress over time.
+
+
+
 ---
 Submitted by Saivamshi Jilla for the AI Internship Case Study
