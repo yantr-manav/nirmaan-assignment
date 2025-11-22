@@ -44,12 +44,16 @@ class RubricEngine:
     @st.cache_resource
     def _load_resources(_self):
         # NLP Core
+# NLP Core
+    # We assume the model is installed via requirements.txt
         try:
             nlp = spacy.load("en_core_web_sm")
-        except:
-            spacy.cli.download("en_core_web_sm")
+        except OSError:
+            # Fallback if the link in requirements.txt failed
+            from spacy.cli import download
+            download("en_core_web_sm")
             nlp = spacy.load("en_core_web_sm")
-            
+                
         # Semantic Brain
         embedder = SentenceTransformer('all-MiniLM-L6-v2')
         
